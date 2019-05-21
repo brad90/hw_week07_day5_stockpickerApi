@@ -14,13 +14,12 @@ StockPick.prototype.bindEvents = function () {
     console.log("This is the company name", UsersCompanySearch);
 
     const PreUrl = this.url
-    const postUrl = "?datatype=json"
     const request = new RequestHelper(PreUrl + UsersCompanySearch);
     console.log("This is the request", request);
     request.get()
     .then((data) => {
       const companyInfo = data;
-      console.log("what is this? ", companyInfo);
+      console.log("what is this? ", companyInfo)
       PubSub.publish('StockPick:stock-info-ready', companyInfo)
     })
 

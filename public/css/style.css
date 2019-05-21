@@ -1,0 +1,44 @@
+.fold_text{
+  text-align: center;
+  border:2px solid black;
+  padding-top:10%;
+
+}
+
+form{
+  background-color: white;
+  border: 1px solid #B7B7B7;
+  box-shadow: 4px 4px 4px #E1E1E1;
+  border-radius: 4px;
+  display: flex;
+}
+
+.form{
+  display: block;
+  justify-content: center;
+  border: 2px solid black;
+  width: 100%;
+}
+
+input{
+  height:30px;
+  width:100%;
+  border:none;
+  border-bottom: 0.2px solid #B7B7B7;
+}
+
+.submit{
+  background-color: #efefef;
+  padding: 5%;
+
+}
+
+.form_setup{
+  padding: 15% 10% 5% 10%;
+}
+
+.input_form_div{
+  width:75%;
+  padding:2% 3% 2% 3%;
+  border-right: 0.5px solid #B7B7B7;
+}

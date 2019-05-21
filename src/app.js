@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const stockView = new StockView(container)
   stockView.bindEvents()
 
-
-
   const stockPickInfo = new StockPick(`https://financialmodelingprep.com/api/v3/financials/income-statement/`)
   stockPickInfo.bindEvents()
   });
